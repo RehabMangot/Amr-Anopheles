@@ -58,7 +58,6 @@ One sample per phenotype, subsampled to 100,000 read pairs each, to keep runtime
 ├── albimanus_midgut_microbiome_AMR.ipynb   # main pipeline notebook
 ├── requirements.txt                        # Python dependencies
 ├── README.md
-└── results/                                # (optional) small CSVs/plots you choose to commit
 ```
 
 Raw reads, the reference genome, and the Kraken2 database are **not** tracked in this repo (see `.gitignore`) — they're multi-gigabyte and fully reproducible by re-running the notebook.
@@ -68,10 +67,6 @@ Raw reads, the reference genome, and the Kraken2 database are **not** tracked in
 - **n = 1 per phenotype** — see caveat above; treat all statistics as exploratory.
 - Kraken2 classification uses the capped Standard-8 database, not the full standard DB or PlusPF, so rare/unusual taxa may be missed.
 - Motif-based detox gene screening detects sequence signatures, not confirmed functional expression.
-
-## License
-
-Add a license of your choice (e.g., MIT for code) before publishing — see [choosealicense.com](https://choosealicense.com/).
 
 ## Citation
 
