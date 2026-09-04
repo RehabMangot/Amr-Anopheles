@@ -1,0 +1,8 @@
+biopython
+pandas
+numpy
+scipy
+matplotlib
+seaborn
+adjustText
+scikit-bio
